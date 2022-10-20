@@ -44,8 +44,8 @@ RUN sed -i '/en_US.UTF-8/s/^# //g' /etc/locale.gen && \
     locale-gen
 
 RUN pip install -U pip
-### Install 3 different Repos
+
+### Install 2 different Repos
 RUN pip install git+https://github.com/scverse/spatialdata-io.git@main
-RUN pip install git+https://github.com/scverse/napari-spatialdata.git@spatialdata
 RUN pip install git+https://github.com/scverse/spatialdata.git@feature/transform_and_coord_spaces
 
