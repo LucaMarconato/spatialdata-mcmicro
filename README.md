@@ -45,12 +45,12 @@ docker commit <container_hash> <user-name>/spatialdata:<new_tag>
 
 Push image
 ```
-docker push <user-name>/spatialdata
+docker push <user-name>/spatialdata:tag
 ```
 
 Pull Image
 ```
-docker pull <user-name>/spatialdata_mcmicro:latest
+docker pull <user-name>/spatialdata_mcmicro:tag
 
 # valid images:
 docker pull niksto/spatialdata_mcmicro:latest
