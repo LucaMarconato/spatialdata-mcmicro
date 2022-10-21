@@ -36,6 +36,7 @@ docker exec -it <container_hash> bash
 Copy file from host to running container
 ```
 docker cp <path_in_host> <container_hash>:/home/<path_in_container>
+```
 
 Commit the changes to a new image
 ```
@@ -44,12 +45,12 @@ docker commit <container_hash> <user-name>/spatialdata:<new_tag>
 
 Push image
 ```
-docker push <user-name>/spatialdata
+docker push <user-name>/spatialdata:tag
 ```
 
 Pull Image
 ```
-docker pull <user-name>/spatialdata_mcmicro:latest
+docker pull <user-name>/spatialdata_mcmicro:tag
 
 # valid images:
 docker pull niksto/spatialdata_mcmicro:latest
