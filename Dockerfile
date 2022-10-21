@@ -48,4 +48,5 @@ RUN pip install -U pip
 ### Install 2 different Repos
 RUN pip install git+https://github.com/scverse/spatialdata-io.git@main
 RUN pip install git+https://github.com/scverse/spatialdata.git@feature/transform_and_coord_spaces
+RUN pip install loguru scanpy click
 

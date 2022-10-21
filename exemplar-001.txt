@@ -1,0 +1,124 @@
+(ome) macbook@dhcp110-624 mcmicro_data % tree
+.
+├── exemplar-001
+│   ├── illumination
+│   │   ├── exemplar-001-cycle-06-dfp.tif
+│   │   ├── exemplar-001-cycle-06-ffp.tif
+│   │   ├── exemplar-001-cycle-07-dfp.tif
+│   │   ├── exemplar-001-cycle-07-ffp.tif
+│   │   ├── exemplar-001-cycle-08-dfp.tif
+│   │   └── exemplar-001-cycle-08-ffp.tif
+│   ├── markers.csv
+│   ├── probability-maps
+│   │   └── unmicst
+│   │       └── exemplar-001-pmap.tif
+│   ├── qc
+│   │   ├── metadata.yml
+│   │   ├── params.yml
+│   │   ├── provenance
+│   │   │   ├── ashlar.log
+│   │   │   ├── ashlar.sh
+│   │   │   ├── mcquant-1.log
+│   │   │   ├── mcquant-1.sh
+│   │   │   ├── s3seg-1.log
+│   │   │   ├── s3seg-1.sh
+│   │   │   ├── unmicst-1.log
+│   │   │   └── unmicst-1.sh
+│   │   ├── s3seg
+│   │   │   └── unmicst-exemplar-001
+│   │   │       ├── cellOutlines.ome.tif
+│   │   │       └── nucleiOutlines.ome.tif
+│   │   └── unmicst
+│   │       └── exemplar-001_Preview_1.tif
+│   ├── quantification
+│   │   └── exemplar-001--unmicst_cell.csv
+│   ├── raw
+│   │   ├── exemplar-001-cycle-06.ome.tiff
+│   │   ├── exemplar-001-cycle-07.ome.tiff
+│   │   └── exemplar-001-cycle-08.ome.tiff
+│   ├── registration
+│   │   └── exemplar-001.ome.tif
+│   └── segmentation
+│       └── unmicst-exemplar-001
+│           ├── cell.ome.tif
+│           └── nuclei.ome.tif
+└── work
+    ├── 1f
+    │   └── 1c93058b36982403a11e67a938b8ee
+    │       └── illumination
+    ├── 40
+    │   └── 91ae88e9bc43910ef84772e9550e65
+    │       ├── cell.ome.tif -> /Users/macbook/ssd/biodata/mcmicro_data/work/58/929fa3821ace324cf60f83f4ef0b94/exemplar-001/cell.ome.tif
+    │       ├── exemplar-001--unmicst.ome.tif -> /Users/macbook/ssd/biodata/mcmicro_data/work/c8/3b9c8f2cfac8a1c2bd01beecd767e6/exemplar-001.ome.tif
+    │       ├── exemplar-001--unmicst_cell.csv
+    │       ├── markers.csv -> /Users/macbook/ssd/biodata/mcmicro_data/exemplar-001/markers.csv
+    │       └── nuclei.ome.tif -> /Users/macbook/ssd/biodata/mcmicro_data/work/58/929fa3821ace324cf60f83f4ef0b94/exemplar-001/nuclei.ome.tif
+    ├── 44
+    │   └── ea76c7cd1d540c5d9213639686f0c8
+    │       └── illumination
+    ├── 58
+    │   └── 929fa3821ace324cf60f83f4ef0b94
+    │       ├── exemplar-001
+    │       │   ├── cell.ome.tif
+    │       │   ├── nuclei.ome.tif
+    │       │   └── qc
+    │       │       ├── cellOutlines.ome.tif
+    │       │       └── nucleiOutlines.ome.tif
+    │       ├── exemplar-001.ome.tif -> /Users/macbook/ssd/biodata/mcmicro_data/work/c8/3b9c8f2cfac8a1c2bd01beecd767e6/exemplar-001.ome.tif
+    │       ├── exemplar-001_Probabilities_1.tif -> /Users/macbook/ssd/biodata/mcmicro_data/work/88/5b66e9e24be84d3a57b2b7e6415a9a/exemplar-001_Probabilities_1.tif
+    │       └── mask.tif -> /Users/macbook/ssd/biodata/mcmicro_data/work/tmp/a0/626d3f15b5233c510291106b75cc2e/input.2
+    ├── 5e
+    │   └── bb1b04e90a7999c8093fa725004882
+    ├── 74
+    │   └── f8ccd9448c94798580c6e17410654b
+    │       └── raw
+    ├── 78
+    │   └── 35a7876e9687ef1530333d5f4e5807
+    │       └── raw
+    ├── 88
+    │   └── 5b66e9e24be84d3a57b2b7e6415a9a
+    │       ├── exemplar-001.ome.tif -> /Users/macbook/ssd/biodata/mcmicro_data/work/c8/3b9c8f2cfac8a1c2bd01beecd767e6/exemplar-001.ome.tif
+    │       ├── exemplar-001_Probabilities_1.tif
+    │       ├── input.1 -> /Users/macbook/ssd/biodata/mcmicro_data/work/tmp/fd/b6a599ac7309f6960bddcaedbfbca5/input.1
+    │       └── qc
+    │           └── exemplar-001_Preview_1.tif
+    ├── 9e
+    │   └── c156a5123339f72a8e0e2ce090c3c4
+    │       └── illumination
+    ├── c8
+    │   └── 3b9c8f2cfac8a1c2bd01beecd767e6
+    │       ├── exemplar-001-cycle-06-dfp.tif -> /Users/macbook/ssd/biodata/mcmicro_data/exemplar-001/illumination/exemplar-001-cycle-06-dfp.tif
+    │       ├── exemplar-001-cycle-06-ffp.tif -> /Users/macbook/ssd/biodata/mcmicro_data/exemplar-001/illumination/exemplar-001-cycle-06-ffp.tif
+    │       ├── exemplar-001-cycle-06.ome.tiff -> /Users/macbook/ssd/biodata/mcmicro_data/exemplar-001/raw/exemplar-001-cycle-06.ome.tiff
+    │       ├── exemplar-001-cycle-07-dfp.tif -> /Users/macbook/ssd/biodata/mcmicro_data/exemplar-001/illumination/exemplar-001-cycle-07-dfp.tif
+    │       ├── exemplar-001-cycle-07-ffp.tif -> /Users/macbook/ssd/biodata/mcmicro_data/exemplar-001/illumination/exemplar-001-cycle-07-ffp.tif
+    │       ├── exemplar-001-cycle-07.ome.tiff -> /Users/macbook/ssd/biodata/mcmicro_data/exemplar-001/raw/exemplar-001-cycle-07.ome.tiff
+    │       ├── exemplar-001-cycle-08-dfp.tif -> /Users/macbook/ssd/biodata/mcmicro_data/exemplar-001/illumination/exemplar-001-cycle-08-dfp.tif
+    │       ├── exemplar-001-cycle-08-ffp.tif -> /Users/macbook/ssd/biodata/mcmicro_data/exemplar-001/illumination/exemplar-001-cycle-08-ffp.tif
+    │       ├── exemplar-001-cycle-08.ome.tiff -> /Users/macbook/ssd/biodata/mcmicro_data/exemplar-001/raw/exemplar-001-cycle-08.ome.tiff
+    │       └── exemplar-001.ome.tif
+    ├── d0
+    │   └── 6fc55e1e5ffa9504e321ecbe477f67
+    │       └── raw
+    └── tmp
+        ├── 5a
+        │   └── bb80d0ad9c544f912e050c3b18f280
+        │       └── input.1
+        ├── a0
+        │   └── 626d3f15b5233c510291106b75cc2e
+        │       └── input.2
+        ├── a6
+        │   └── 319dea6149b2cdc44d2c8d40cc1c30
+        │       └── input.2
+        ├── d5
+        │   └── d03077833f0b614918f1c8c94616c2
+        │       └── input.1
+        ├── f7
+        │   └── 345b7f9e20a97630c1a2dbd8bb68f5
+        │       └── input.1
+        └── fd
+            └── b6a599ac7309f6960bddcaedbfbca5
+                └── input.1
+
+59 directories, 60 files
+(ome) macbook@dhcp110-624 mcmicro_data % 

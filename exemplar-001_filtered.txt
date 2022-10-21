@@ -1,0 +1,42 @@
+(ome) macbook@dhcp110-624 mcmicro_data % tree  # keeping only rows referring to information to pass to SpatialData
+.
+├── exemplar-001
+│   ├── illumination
+│   │   ├── exemplar-001-cycle-06-dfp.tif
+│   │   ├── exemplar-001-cycle-06-ffp.tif
+│   │   ├── exemplar-001-cycle-07-dfp.tif
+│   │   ├── exemplar-001-cycle-07-ffp.tif
+│   │   ├── exemplar-001-cycle-08-dfp.tif
+│   │   └── exemplar-001-cycle-08-ffp.tif
+│   ├── markers.csv
+│   ├── probability-maps
+│   │   └── unmicst
+│   │       └── exemplar-001-pmap.tif
+│   ├── qc
+│   │   ├── provenance
+│   │   │   ├── ashlar.log
+│   │   │   ├── ashlar.sh
+│   │   │   ├── mcquant-1.log
+│   │   │   ├── mcquant-1.sh
+│   │   │   ├── s3seg-1.log
+│   │   │   ├── s3seg-1.sh
+│   │   │   ├── unmicst-1.log
+│   │   │   └── unmicst-1.sh
+│   │   ├── s3seg
+│   │   │   └── unmicst-exemplar-001
+│   │   │       ├── cellOutlines.ome.tif
+│   │   │       └── nucleiOutlines.ome.tif
+│   │   └── unmicst
+│   │       └── exemplar-001_Preview_1.tif
+│   ├── quantification
+│   │   └── exemplar-001--unmicst_cell.csv
+│   ├── raw
+│   │   ├── exemplar-001-cycle-06.ome.tiff
+│   │   ├── exemplar-001-cycle-07.ome.tiff
+│   │   └── exemplar-001-cycle-08.ome.tiff
+│   ├── registration
+│   │   └── exemplar-001.ome.tif
+│   └── segmentation
+│       └── unmicst-exemplar-001
+│           ├── cell.ome.tif
+│           └── nuclei.ome.tif
