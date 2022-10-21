@@ -36,6 +36,7 @@ docker exec -it <container_hash> bash
 Copy file from host to running container
 ```
 docker cp <path_in_host> <container_hash>:/home/<path_in_container>
+```
 
 Commit the changes to a new image
 ```
