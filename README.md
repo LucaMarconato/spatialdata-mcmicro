@@ -11,9 +11,16 @@ docker tag spatialdata <user-name>/spatialdata
 docker image rm spatialdata
 ```
 
-Create and run a container from an image 
+Create and run a container (or a console) from an image 
 ```
 docker run -it <user-name>/spatialdata
+docker run -it <user-name>/spatialdata bash
+```
+
+works also locally:
+```
+docker run -it spatialdata
+docker run -it spatialdata bash
 ```
 
 To list images or containers use
